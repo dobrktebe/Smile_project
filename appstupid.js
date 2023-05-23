@@ -4,7 +4,7 @@ console.log(emoji);
 let a = document.querySelector(".main_kartochki");
 console.log(a);
 
-function printCards(cards) {
+ printCards = (cards) => {
   cards.forEach((card) => {
     ///printCard(card);
     console.log();
@@ -12,7 +12,7 @@ function printCards(cards) {
 }
 printCards(emoji);
 
-function printCard(card) {
+printCard = (card) => {
   let div = document.createElement("div");
   div.innerText = "smile";
   div.setAttribute("class", "kartochka");
@@ -33,12 +33,8 @@ function printCard(card) {
   div.append(sotny);
   div.append(text);
   a.prepend(div);
-
-  
-  
-
-}
-function allcards(emoji) {
+};
+allcards = (emoji)=> {
   emoji.forEach((card) => printCard(card));
 }
 allcards(emoji);
