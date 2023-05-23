@@ -1,0 +1,111 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: linear-gradient(92.33deg, #087990 0.12%, #055160 100%);
+  height: 295px;
+  width: 100%;
+  padding-top: 68px;
+}
+
+.header_text {
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87px;
+  text-align: center;
+  color: #cff4fc;
+}
+
+.header_text2 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: #cff4fc;
+  text-align: center;
+}
+.placeholder {
+  height: 64px;
+  width: 820px;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.input {
+  margin-top: 22px;
+  margin-left: 32px;
+  margin-bottom: 21px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+}
+
+.main {
+  background: #d4d3d8;
+}
+.container {
+  width: 986px;
+}
+.main_kartochki {
+    display: grid;
+  grid-template-columns: repeat(3, 316px);
+  grid-auto-flow: row;
+  gap: 19px;
+  margin-bottom: 22px;
+}
+.kartochka {
+  height: 184px;
+  width: 316px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  color: #ffffff;
+  border: solid;
+  background-color: #ffffff;
+}
+.img {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 24px;
+  margin-left: 134;
+  text-align: center;
+}
+
+.kartochka_sotny {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  color: black;
+  text-decoration: underline;
+}
+
+.kartochka_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #3f444a;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
